@@ -18,7 +18,7 @@ DI exists over the amount needed for delivery and Oroville carryover.
 
 define swp_alloc_ {std kind 'swp-delivery' UNITS 'TAF'}
 
-define swp_carryover_fraction {value 0.5 } ! default value is 0.5
+define swp_carryover_fraction {value 0.7 } ! default value is 0.5
 define swp_carryover_fracDV {alias swp_carryover_fraction kind 'SCEN-CARRYOVER' units 'None'}
 
 ! define values based on Table A entitlements
@@ -461,5 +461,4 @@ define deltar_drymn_dv	{alias deltar_drymin	 kind 'swp_debug' units 'taf'}
 define swp_alloc_1dv    {alias swp_allocation_1 kind 'swp_debug' units 'taf'}
 define swp_alloc_2dv    {alias swp_allocation_2 kind 'swp_debug' units 'taf'}
 define swp_alloc_3dv    {alias swp_allocation_3 kind 'swp_debug' units 'taf'}
-
 
